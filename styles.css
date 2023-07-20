@@ -1,63 +1,72 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Amatic SC', cursive;
 }
 
-body{
+
+.container-fluid{
     width: 100%;
     min-height: 100vh;
-    background: #3C3B3F;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: #000000 2px solid;
+    margin: rem;
     
+
 }
+
 
 .todo-app{
     width: 100%;
     max-width: 540px;
     background-color: #fff;
-    margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
 }
 
-.todo-app h2 {
-    color: #605C3C;
+.todo-app h1 {
+    /* color: #605C3C; */
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    color: black;
+    font-weight: 700;
+    /* text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.5); */
+
 }
 
 
-.row{
+.col {
     display: flex;
     align-items:center ;
     justify-content: space-between;
     background: #e5e7ea;
     border-radius: 30px;
     padding-left: 20px;
-    margin-bottom: 25px ;
 
 }
 
 input{
     flex: 1;
-    border: none;
+    border: none    ;
     outline: none;
     background: transparent;
     padding: 10px;
 }
 
-
-button {
+.addBtn {
     border: none;
     outline: none;
     padding: 16px 50px;
-    background: #ff5945;
+    background: #fff;
+    border: #000000 2px solid;
     font-size: 16px;
-    color: #fff;
+    color: #000000;
     cursor: pointer;
     border-radius: 40px;
 }
@@ -115,4 +124,6 @@ ul li span:hover{
 }
 
 
+
+/* ========================================================== */
 

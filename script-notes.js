@@ -32,6 +32,7 @@ function createDeleteButton() {
     deleteBtn.className = "delete-btn";
     deleteBtn.style.marginRight = "25px"; // Add spacing between delete and save buttons
     deleteBtn.style.marginLeft = "30px"; // Add spacing between delete and save buttons
+    deleteBtn.style.fontSize = "17px";
     return deleteBtn;
 }
 
@@ -41,6 +42,7 @@ function createSaveButton() {
     saveBtn.textContent = "Save";
     saveBtn.className = "save-btn";
     saveBtn.style.marginRight = "5px"; // Add spacing between delete and save buttons
+    saveBtn.style.fontSize = "17px";
     return saveBtn;
 }
 
@@ -51,6 +53,7 @@ function createNoteItem(note) {
     noteItem.style.display = "flex";
     noteItem.style.alignItems = "center";
     noteItem.style.marginBottom = "5px"; // Add some spacing between note items
+    noteItem.style.fontSize = "17px";
 
     const inputBox = document.createElement("p");
     inputBox.className = "input-box";

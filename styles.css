@@ -15,11 +15,12 @@
 .container-fluid{
     width: 100%;
     min-height: 100vh;
-    border: #000000 1px solid;
+    /* border: #000000 1px solid; */
     margin: rem;
     
 
 }
+
 
 
 .todo-app{
@@ -160,7 +161,9 @@ ul li span:hover{
     }
   }
 
+ 
 
+  
 
 
 /* ========================================================== */

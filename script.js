@@ -12,6 +12,7 @@ function addTask(){
         listContainer.appendChild(li);
          let span = document.createElement("span");
          span.innerHTML = "\u00d7"
+         span.style.fontSize = "50px"; // Set the font size to make it bigger
          li.appendChild(span);
     }
     inputBox.value = '';

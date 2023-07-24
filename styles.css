@@ -11,10 +11,11 @@
 }
 
 
+
 .container-fluid{
     width: 100%;
     min-height: 100vh;
-    border: #000000 2px solid;
+    border: #000000 1px solid;
     margin: rem;
     
 
@@ -71,6 +72,8 @@ input{
     border-radius: 40px;
 }
 
+
+
 ul li {
     list-style: none;
     font-size: 17px;
@@ -122,6 +125,41 @@ ul li span{
 ul li span:hover{ 
     background: #e5e7ea;
 }
+
+.letter {
+    transform-origin: center;
+    transform: translateX(15px);
+  }
+  
+  #letter1{animation: spin 3s infinite 100ms linear, appear 2s;}
+  #letter2{animation: spin 3s infinite 225ms linear, appear 2s;}
+  #letter3{animation: spin 3s infinite 350ms linear, appear 2s;}
+  #letter4{animation: spin 3s infinite 475ms linear, appear 2s;}
+  #letter5{animation: spin 3s infinite 475ms linear, appear 2s;}
+  #letter6{animation: spin 3s infinite 475ms linear, appear 2s;}
+  #letter7{animation: spin 3s infinite 475ms linear, appear 2s;}
+  #letter8{animation: spin 3s infinite 475ms linear, appear 2s;}
+  #letter9{animation: spin 3s infinite 475ms linear, appear 2s;}
+  #letter10{animation: spin 3s infinite 475ms linear, appear 2s;}
+  
+  @keyframes appear{
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+  }
+  
+  @keyframes spin{
+    from {
+      transform: rotate(0deg) translateX(8px) rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg) translateX(7px) rotate(-360deg); 
+    }
+  }
+
 
 
 

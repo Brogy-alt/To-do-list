@@ -1,3 +1,6 @@
+
+// I WATCHED A VIDEO FOR THIS SECTION !!!
+
 const notesContainer = document.querySelector(".notes-container");
 const createBtn = document.querySelector(".btn");
 

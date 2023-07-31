@@ -1,3 +1,5 @@
+// I WATCHED A VIDEO FOR THIS SECTION AS WELL BUT I ADDED SOME OF JAVASCRIPT HERE!!!
+
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
 
@@ -38,3 +40,5 @@ function showTask(){
     listContainer.innerHTML = localStorage.getItem("data");
 }
 showTask();
+
+
